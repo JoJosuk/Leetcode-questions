@@ -27,4 +27,4 @@ class Solution:
             return sotidict[k-1][1]
         else:
             return -1
-    
+     
