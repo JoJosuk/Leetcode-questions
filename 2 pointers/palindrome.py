@@ -11,6 +11,7 @@
 #             r-=1;l+=1
 #         return True
 class Solution:
+    import re
     def isPalindrome( s: str) -> bool:
         r = re.sub(r'[^a-zA-Z0-9]','', s).lower()
 

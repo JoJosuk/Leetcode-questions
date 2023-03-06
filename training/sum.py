@@ -5,8 +5,7 @@ def inti():
     l=0
     for r in range(len(ind)):
         summ+=int(ind[r])
-        if summ==k:
-                return ind[l:r+1]
+        
         while summ>k and l<r:
             summ-=int(ind[l])
             l+=1
